@@ -8,11 +8,11 @@
 </head>
 
 <body>
-  <header>
+  <header id="navbar">
     <h1>Olivia Gowan</h1>
-      <nav id="navbar">
+      <nav>
         <ul>
-          <li><a href="#about-me">About me</a></li>
+          <li><a href="#">About me</a></li>
           <li><a href="#my-work">My Work</a></li>
           <li><a href="#contact-me">Contact Me</a></li>
         </ul>
@@ -21,42 +21,52 @@
 
   <main>
     <section id="about-me">
-      <h2>My name is Olivia</h2>
-      <img src="" alt="">
-      <p>Here is a paragraph about myself.</p>
+      <img src="./assets/placeholder.JPG" alt="Temporary headshot">
+        <div>
+          <h2>About Me</h2>
+          <p>Hi, I'm a new web developer starting out in my career. I've been learning about coding for about 6 months now. I am currently studying at University of Toronto in the FullStack Webdeveloper Bootcamp. I really think that coding is something I can become very skilled at and I hope to create applications that will improve peoples' day to day lives.</p>    
+        </div>
     </section>
+   
     <section id="my-work">
-      <figure class="projects" id="first-project">
-        <img src="" alt=""/>
-        <figcaption>Title of first application</figcaption>
-      </figure>
-      <figure class="projects">
-        <img src="" alt=""/>
-        <figcaption>Title of second application</figcaption>
-      </figure>
-      <figure class="projects">
-        <img src="" alt=""/>
-        <figcaption>Title of third application</figcaption>
-      </figure>
-      <figure class="projects">
-        <img src="" alt=""/>
-        <figcaption>Title of fourth application</figcaption>
-      </figure>
-      <figure class="projects">
-        <img src="" alt=""/>
-        <figcaption>Title of fifth application</figcaption>
-      </figure>
+      <div id="work-1">
+        <h2>My Work</h2> 
+        <figure id="big-card">
+          <img id="first-image" src="./assets/olivia-the-g.github.io_Landing-page_(Nest Hub).png" alt="screenshot of landing page"/>
+          <figcaption><a href="https://olivia-the-g.github.io/Landing-page/">Landing Page</a></figcaption>
+        </figure> 
+      </div>
+      <div id="work-2">
+        <figure class="card-columns">
+          <img class="other-images" src="./assets/olivia-the-g.github.io_prework-study-guide_(Nest Hub).png" alt="screenshot of prework study guide"/>
+          <figcaption><a href="https://olivia-the-g.github.io/prework-study-guide/">Prework Study Guide</a></figcaption>
+        </figure>
+        <figure class="card-columns">
+          <img class="other-images" src="./assets/plain-black-background-02fh7564l8qq4m6d.jpg" alt="black screen placeholder"/>
+          <figcaption><a>Title of third application</a></figcaption>
+        </figure>
+        <figure class="card-columns">
+          <img class="other-images" src="./assets/plain-black-background-02fh7564l8qq4m6d.jpg" alt="black screen placeholder"/>
+          <figcaption><a>Title of fourth application</a></figcaption>
+        </figure>
+        <figure class="card-columns">
+          <img class="other-images" src="./assets/plain-black-background-02fh7564l8qq4m6d.jpg" alt="black screen placeholder"/>
+          <figcaption><a>Title of fifth application</a></figcaption>
+        </figure>
+      </div>
     </section>
   </main>
 
  <footer id="contact-me">
     <h3>Contact Me</h3>
-    <nav id="profile-links">
-      <ul>
-        <li><a href="https://github.com/Olivia-the-G">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/olivia-gowan-a13a62294/">LinkedIn</a></li>
-      </ul>
-    </nav>
+    <section id="footer-links">
+      <div id="github-link">
+        <a href="https://github.com/Olivia-the-G">GitHub</a>
+      </div>
+      <div id="linkedin-link">
+        <a href="https://www.linkedin.com/in/olivia-gowan-a13a62294/">LinkedIn</a>
+      </div>
+    </section>
  </footer>
  
 </body>
